@@ -10,9 +10,8 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="Carreras" id="basic-nav-dropdown">
+            <Nav.Link href="#home">Conocenos</Nav.Link>
+            <NavDropdown title="Carreras Aeronauticas" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
                 Another action
@@ -23,7 +22,8 @@ export const NavBar = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Carreras" id="basic-nav-dropdown">
+            
+            <NavDropdown title="Cursos de Carga" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
                 Another action
@@ -34,6 +34,22 @@ export const NavBar = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+
+            <NavDropdown title="Cursos de Capacitacion" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" className="navdropdown__item">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4" className="navdropdown__item">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+
+
+
+
           </Nav>
         </Navbar.Collapse>
       </Container>

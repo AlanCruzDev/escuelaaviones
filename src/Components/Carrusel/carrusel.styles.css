@@ -1,0 +1,22 @@
+.img__carusel{
+    height: 500px;
+}
+.texto__carusel  h1{
+    font-size: 3.2rem;
+    margin-left: 360px;
+    margin-top: -400px;
+    font-weight: 700;
+}
+.texto__carusel button{
+    margin-left: 800px;
+    margin-top: 50px;
+    background-color: #3d348b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
