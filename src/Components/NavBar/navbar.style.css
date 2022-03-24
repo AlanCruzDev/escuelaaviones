@@ -1,0 +1,10 @@
+.nav{
+    background-color: #0b2343 !important;
+}
+a{
+    color: white !important;
+    font-size: 1.5rem;
+}
+.navdropdown__item{
+    color: black !important;
+}
