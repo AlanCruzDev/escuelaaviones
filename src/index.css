@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+
+:root{
+  --verdeboton:#5cb85c;
+  --rojo:#ff4040
+}
+
+
+
 html {
   font-size: 60.5%;
   box-sizing: border-box;
@@ -16,4 +26,42 @@ body {
 }
 img {
   width: 100%;
+}
+.contactoimagen .text-centro{
+  position: absolute;
+  z-index: 1;
+  margin-top: -80px;
+  margin-left: 20%;
+}
+.contactoimagen .text-centro h2{
+  color: white;
+  font-weight: 900;
+  font-size: 5.5rem;
+}
+.contactoimagen img{
+  max-height: 480px;
+}
+@media screen and (min-width: 928px) {
+  .contactoimagen .text-centro{
+      margin-top: -18%;
+      margin-left: 20%;
+  }
+  .contactoimagen .text-centro h2{
+      font-size: 5.5rem;
+  }
+}
+
+@media screen  and (min-width: 928px){
+  .contactoimagen .text-centro__mantenimiento{
+    padding: 20px;
+    margin-top: -13%;
+  }
+  .contactoimagen .text-centro__mantenimiento h2{
+      font-size: 4.5rem;
+      color: white;
+      font-weight: 900;
+  }
+}
+.espacio__layout{
+  margin-top: 90px;
 }

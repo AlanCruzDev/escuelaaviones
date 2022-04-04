@@ -1,58 +1,29 @@
 import React from "react";
-import { Container, Navbar, Nav,NavDropdown } from "react-bootstrap";
+import {Link} from 'react-router-dom';
 import './navbar.style.css';
 
 export const NavBar = () => {
   return (
-    <Navbar expand="lg" sticky="top" className="nav">
-      <Container>
-        <Navbar.Brand href="#home">El logo va Aqui</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Conocenos</Nav.Link>
-            <NavDropdown title="Carreras Aeronauticas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className="navdropdown__item">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" className="navdropdown__item">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-            
-            <NavDropdown title="Cursos de Carga" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className="navdropdown__item">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" className="navdropdown__item">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <NavDropdown title="Cursos de Capacitacion" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" className="navdropdown__item" >Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className="navdropdown__item">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className="navdropdown__item">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" className="navdropdown__item">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-
-
-
-
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg fixed-top">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">Navbar</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation" style={{background:'white'}}>
+      <span className="navbar-toggler-icon" style={{background:'white'}}></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul className="navbar-nav">
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Carreras Aeronauticas
+          </a>
+          <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><Link className="nav-link"   to="/tecnicomantenimiento">Tecnico en Mantenimiento</Link></li>
+            <li><Link className="nav-link text-white"   to="/sobrecargo">Tsu Sobrecargo</Link></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
   );
 };

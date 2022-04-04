@@ -1,12 +1,10 @@
-.nav{
+.navbar{
     background-color: #0b2343 !important;
-    padding: 150px;
 }
 a{
     color: white !important;
-    font-size: 1.5rem;
-    margin: 5px;
+    font-size: 1.8rem;
 }
-.navdropdown__item{
-    color: black !important;
+.dropdown-menu-dark{
+    background-color: #0b2343 !important;
 }

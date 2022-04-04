@@ -1,0 +1,10 @@
+
+@media screen and (min-width: 928px) {
+  .barra__dezplazadora{
+    margin-top: 25rem;
+  }
+  
+}
+.card__componentes p{
+  font-size: 1.4rem;
+}

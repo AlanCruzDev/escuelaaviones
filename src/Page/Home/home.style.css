@@ -1,0 +1,9 @@
+.tecnicomantenimiento__home{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+}
+.tecnicomantenimiento__home video{
+  width: 100%;
+}

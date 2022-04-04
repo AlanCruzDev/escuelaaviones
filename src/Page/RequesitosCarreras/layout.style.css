@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+.h1__layout{
+  font-size: 4rem;
+  margin-top: 10px;
+  color: var(--verdeboton);
+  font-weight: 800;
+  font-family: 'Marmelad', sans-serif;
+}
+
+.circulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background: var(--verdeboton);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.h2_layout{
+  font-size: 3.3rem;
+  margin-top: 10px;
+  color: var(--rojo);
+  font-weight: 900;
+  font-family: '|Marmelad', sans-serif;
+
+}
+.atencion__uno h2, p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.atencion__uno p{
+  font-size: 1.8rem;
+}

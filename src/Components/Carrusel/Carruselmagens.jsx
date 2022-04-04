@@ -14,10 +14,58 @@ import './carrusel.styles.css';
 export const Carruselmagens = () => {
     return (
         <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={5000}>
                 <img
                     className="d-block img__carusel"
                     src={img1}
+                    alt="First slide"
+                />
+                <Carousel.Caption className='texto__carusel'>
+                    <h1>Liderazgo Estratégico y Formación como
+                        Tripulante de Cabina (TCP Sobrecargo)</h1>
+                    <button>Conoce mas</button>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block img__carusel"
+                    src={img2}
+                    alt="First slide"
+                />
+                <Carousel.Caption className='texto__carusel'>
+                    <h1>Liderazgo Estratégico y Formación como
+                        Tripulante de Cabina (TCP Sobrecargo)</h1>
+                    <button>Conoce mas</button>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block img__carusel"
+                    src={img3}
+                    alt="First slide"
+                />
+                <Carousel.Caption className='texto__carusel'>
+                    <h1>Liderazgo Estratégico y Formación como
+                        Tripulante de Cabina (TCP Sobrecargo)</h1>
+                    <button>Conoce mas</button>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block img__carusel"
+                    src={img4}
+                    alt="First slide"
+                />
+                <Carousel.Caption className='texto__carusel'>
+                    <h1>Liderazgo Estratégico y Formación como
+                        Tripulante de Cabina (TCP Sobrecargo)</h1>
+                    <button>Conoce mas</button>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block img__carusel"
+                    src={img5}
                     alt="First slide"
                 />
                 <Carousel.Caption className='texto__carusel'>
