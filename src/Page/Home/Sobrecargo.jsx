@@ -7,7 +7,7 @@ export const Sobrecargo = () => {
     <div className="contactoimagen">
       <img src={img4} alt="sobrecargo" />
       <div className='text-centro'>
-        <h2>Tsu Sobrecargo</h2>
+        <h2>SOBRECARGO DE AVIACIÓN</h2>
       </div>
       <div className='container'>
         <div className='row'>

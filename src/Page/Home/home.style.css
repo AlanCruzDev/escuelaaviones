@@ -1,9 +1,83 @@
-.tecnicomantenimiento__home{
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.tecnicomantenimiento__home {
   position: relative;
   display: inline-block;
   text-align: center;
-
 }
-.tecnicomantenimiento__home video{
+
+.tecnicomantenimiento__home video {
   width: 100%;
 }
+
+.section__carreras h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--h1l);
+  font-weight: 800;
+}
+
+.section__carreras {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 928px) {
+  .section__carreras {
+    margin-top: 100px;
+  }
+
+  .section__carreras h2 {
+    font-size: 3rem;
+  }
+}
+
+.subtitulo__carrera{
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.carreras:hover{
+  cursor: pointer;
+}
+
+.img-container{
+  width:100%;
+  overflow:hidden;
+}
+.img-container img{
+  height: 400px;
+  filter: brightness(60%);
+}
+
+.top_seccion{
+  margin-top: 100px;
+}
+.img-container .text-cusrso{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container .text-cusrso h2{
+  position: absolute;
+  margin-top: -20%;
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-container .text-cusrso p{
+  position: absolute;
+  color: white;
+  margin-top: -10%;
+  font-size: 2.2rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -9,7 +9,7 @@ export const ListaMaterias = ({data}) => {
   return (
     <ul className='list__group'>
       {data.map((valor,index)=>(
-        <li className='lsita__item'><FcRight size={30}/>{valor}</li>
+        <li className='lsita__item' style={{fontSize:'1.5rem'}}><FcRight size={30}/>{valor}</li>
       ))} 
     </ul>
   )

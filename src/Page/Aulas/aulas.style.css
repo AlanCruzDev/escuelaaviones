@@ -1,0 +1,27 @@
+.main__diplome{
+  margin-top: 10%;
+}
+
+.cuerpo__equipoServicio{
+  margin-top: 150px;
+}
+
+.card-header{
+  border: none !important;
+}
+.card-body{
+  background-color: white;
+}
+.card__equipo{
+  margin-top: -20rem;
+}
+.aulas__titulo{
+  color: var(--h1l);
+  font-weight: 900;
+}
+
+@media screen and (min-width: 928px){
+  .cuerpo__equipoServicio{
+    margin-top: -50px;
+  }
+}

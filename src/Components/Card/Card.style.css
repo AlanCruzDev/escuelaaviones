@@ -8,3 +8,23 @@
 .card__componentes p{
   font-size: 1.4rem;
 }
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: right;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+.titulo__cardhome{
+  font-size: 3.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}

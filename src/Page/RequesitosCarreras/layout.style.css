@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 
 .h1__layout{
-  font-size: 4rem;
+  font-size: 3.8rem;
   margin-top: 10px;
-  color: var(--verdeboton);
-  font-weight: 800;
-  font-family: 'Marmelad', sans-serif;
+  color: var(--h1l);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .circulo{
@@ -26,7 +25,7 @@
   margin-top: 10px;
   color: var(--rojo);
   font-weight: 900;
-  font-family: '|Marmelad', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 .atencion__uno h2, p{

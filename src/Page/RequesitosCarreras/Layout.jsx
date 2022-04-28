@@ -2,20 +2,30 @@ import React from 'react';
 import {Acordion} from '../../Components/Acordion/Acordion';
 import {Lista} from '../../Components/Lista/Lista';
 import './layout.style.css';
-import { FcAdvertising } from "react-icons/fc";
+import { FcApproval } from "react-icons/fc";
 import {Tabla} from '../../Components/Tabla/Tabla';
+import {Requesitos} from '../../Page/RequesitosCarreras/Data/DataRequesitos.js';
 
-export const Layout = ({data,costos,titulo}) => {
+
+
+export const Layout = ({data,costos,titulo,requesitos}) => {
   return (
     <>
       <div className='container-lg espacio__layout'>
         <div className='row'>
           <div className='col-md-6'>
             <div className='espacio__layout circulo'>
-              <FcAdvertising size={100} className="icono"/>
+              <FcApproval size={100} className="icono"/>
             </div>
             <h1 className='h1__layout'>Requisitos: (original y copia)</h1>
-            <Lista/>
+            {Requesitos.map((value,indez) =>(
+               <Lista
+                  key={indez}
+                  iten ={value}
+                  sizeicon={50}
+                  sizeletter={'2.2rem'}
+               />
+            ))}
           </div>
           <div className='col-md-6'>
           <h1 className='text-center h1__layout'>Especialidad: {titulo}</h1>
