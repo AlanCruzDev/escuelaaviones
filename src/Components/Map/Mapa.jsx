@@ -23,16 +23,16 @@ export const Mapa = () => {
             <GoogleMap
               mapContainerStyle={containerStyle}
               center={{
-                lat:9.461849,
-                lng:-99.045671
+                lat:19.794060,
+                lng:-99.074888
               }}
               zoom={10}
             >
               <Marker
                 position={
                   {
-                    lat:9.461849,
-                    lng:-99.040641
+                    lat:19.794060,
+                    lng:-99.074888
                   }
                 }
               />

@@ -31,7 +31,7 @@ const navegateairplonesobre=()=>{
             <p className='subtitulo__carrera'>Tecnico en Mantenimiento</p>
           </div>
           <div className='col-md-6'>
-            <img src={sobrecargaavion} alt="mantenimiento" className='w-25 carreras' />
+            <img src={sobrecargaavion} alt="mantenimiento" className='w-25 carreras'  onClick={navegateairplonesobre}/>
             <p className='subtitulo__carrera'>Sobrecargo de Aviacion</p>
           </div>
         </div>
