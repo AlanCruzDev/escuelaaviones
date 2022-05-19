@@ -12,6 +12,10 @@ import { Openclosemodal } from '../Hooks/Openclosemodal';
 import {BubleWhats} from '../Components/BubbleWhatssap/BubleWhats';
 import {DiplomaCenter} from '../Page/DiplomaCenter/DiplomaCenter';
 import {Aulas} from '../Page/Aulas/Aulas';
+import {Footer} from '../Components/Footer/Footer';
+import {Localizacion} from '../Page/Localizacion/localizacion';
+import {Conocenos} from '../Page/Conocenos/Conocenos';
+
 
 
 export const RouterHome = () => {
@@ -35,12 +39,15 @@ export const RouterHome = () => {
         <Route path='/recubrimientoavion' element={<RecubrimientoAvion />} />
         <Route path='/diplomado' element={<DiplomaCenter/>}/>
         <Route path='/aulas' element={<Aulas/>}/>
+        <Route path='/localizacion' element={<Localizacion/>}/>
+        <Route path='/conocenos' element={<Conocenos/>}/>
 
       </Routes>
       <BubleWhats/>
       <ModalInformacion
         handleClose={hideModal}
         show={state.show} />
+        <Footer/>
     </>
   )
 }
