@@ -5,6 +5,7 @@ import sobrecargaavion from '../../img/Icons/sobrecarga.png';
 import imganescursos from '../../img/Home/cursos-de-cap.jpg';
 import {CardHome} from '../../Components/Card/CardHome';
 import {useNavigate} from 'react-router-dom';
+import {CardCursos} from '../../Page/Cursos/CardCursos';
 
 
 
@@ -44,6 +45,9 @@ const navegateairplonesobre=()=>{
           <p>El CEEAEM está certificado por la Agencia Federal de aviación Civil</p>
         </div>
       </div>
+      <div className='mt-5'>
+            <CardCursos/>
+        </div>
       <main className='section__carreras'>
         <h2>Instalaciones</h2>
         <div className='container' style={{marginTop:'10rem'}}>

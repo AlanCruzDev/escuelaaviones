@@ -15,6 +15,11 @@ import {Aulas} from '../Page/Aulas/Aulas';
 import {Footer} from '../Components/Footer/Footer';
 import {Localizacion} from '../Page/Localizacion/localizacion';
 import {Conocenos} from '../Page/Conocenos/Conocenos';
+import {Cursos} from '../Page/Cursos/Cursos';
+import {SeminarioOperaciones} from '../Page/Seminarios/SeminarioOperaciones';
+import {SeminarioMantenimiento} from '../Page/Seminarios/SeminarioMantenimiento';
+import {AdministracionMotores} from '../Page/Seminarios/AdministracionMotores';
+
 
 
 
@@ -41,7 +46,10 @@ export const RouterHome = () => {
         <Route path='/aulas' element={<Aulas/>}/>
         <Route path='/localizacion' element={<Localizacion/>}/>
         <Route path='/conocenos' element={<Conocenos/>}/>
-
+        <Route path='/cursos' element={<Cursos/>}/>
+        <Route path='/operaciones' element={<SeminarioOperaciones />}/>
+        <Route path='/mantenimiento/aeronautico' element={<SeminarioMantenimiento/>}/>
+        <Route path='/administracion/motores' element={<AdministracionMotores/>}/>
       </Routes>
       <BubleWhats/>
       <ModalInformacion

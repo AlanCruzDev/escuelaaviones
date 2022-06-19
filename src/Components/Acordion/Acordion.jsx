@@ -17,8 +17,6 @@ export const Acordion = ({data}) => {
     }
   },[]);
 
-  console.log(data);
-
   const llenarData=()=>{
 
     return (
